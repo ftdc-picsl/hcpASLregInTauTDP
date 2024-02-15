@@ -1,0 +1,3 @@
+2/15/2024
+Git repo for code used to create alternate ASL-to-T1w transforms for Mihailescu et al 202X.
+Briefly, we use ASLPrep to process. However, a single volume of stack-of-spirals does not do well for transformation so we use CBF image saved in ASLPrep's working directory instead. This may be appropriate in general, but SoS in particular suffer from structured artifact that gets averaged out in CBF image. To evaluate registration quality, a manual registration performed iteratively by SM was used as initalization for CBF-T1w registration for BBR. Using the common FLIRT algorithm for intialization for BBR was also performed. 
