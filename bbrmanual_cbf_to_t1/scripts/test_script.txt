@@ -1,0 +1,1 @@
+for i in `cat list_of_ids` ; do ./bbrmanual_cbf_to_t1_pipeline.sh ${i} ../../wrkdir_20220124full/ ../bbrmanual_cbf_to_t1Output/ ; done 
