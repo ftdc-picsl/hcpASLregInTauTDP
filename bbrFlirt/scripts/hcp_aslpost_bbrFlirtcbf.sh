@@ -2,6 +2,7 @@
 
 if [[ $# -lt 7 ]] ; then 
 	echo "USAGE: ./hcp_aslpost.sh <sub> <aslprep dir> <aslprep wrk dir> <freesurfer dir>  <aslpost output dir> <scriptsdir> <bidsdir>"
+	echo " script for removing any clipped voxels and out-of-bounding-box voxels removed from CBF calculation" 
 	echo "     sub is id part sub-id "
 	echo "	   aslprep dir is base aslprep output directory. Needed for t1 reference images"
 	echo "     aslprep wrk dir is working directory. Needed for asl-to-t1 affine.mat "

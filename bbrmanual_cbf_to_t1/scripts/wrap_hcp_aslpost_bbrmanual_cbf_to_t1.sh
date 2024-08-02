@@ -23,12 +23,18 @@ fi
 sublist=$1
 
 # Next 4 lines are user-specified
+# aslprep output direcotyr
 aslprepdir=/project/ftdc_hcp/aslprep/aslprepout_20220124full/
+# directory for output of this script
 aslpostdir=/project/ftdc_hcp/aslprep/bbrmanual_cbf_to_t1/bbrmanual_cbf_to_t1Output/
+# working directory from aslprep
 aslprepwrkdir=/project/ftdc_hcp/aslprep/wrkdir_20220124full/
+# recon-all output directory 
 freesurferdir=/project/ftdc_hcp/pipeline711/
 # aslfiletag="acq-pcasl_mean_cbf"
+# location of asl bids that when into aslprep
 bidsdir=/project/ftdc_hcp/aslprep/bids2/
+# scripts directories
 scriptsdir=/project/ftdc_hcp/aslprep/aslpostp/scripts/
 morescriptsdir=/project/ftdc_hcp/aslprep/bbrmanual_cbf_to_t1/scripts/
 

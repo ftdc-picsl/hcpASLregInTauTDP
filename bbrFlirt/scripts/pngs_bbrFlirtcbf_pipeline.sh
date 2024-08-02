@@ -1,6 +1,7 @@
 #!/bin/bash
 subjlist=$1
 module load ANTs/2.3.5
+# thing that might work to make a helpful png for quick qc
 for i in `cat $subjlist`; do
 	ThresholdImage 3 ../bbrFlirtcbfOutput/sub-${i}/bbr_out/sub-${i}.nii.gz ../bbrManualcbfOutput/sub-${i}/bbr_out/sub-${i}fastmask.nii.gz .01 Inf 1 0 
 
